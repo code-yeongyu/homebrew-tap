@@ -7,10 +7,10 @@ class CommentChecker < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/code-yeongyu/go-claude-code-comment-checker/releases/download/v0.4.4/comment-checker_v0.4.4_darwin_arm64.tar.gz"
-      sha256 "eca02b773ec2f183b42f5bd24c3d3d4c2e7247781edbf2acd91aebe2d80ceab9"
+      sha256 "b36fef302a3a584d61740286429e0f8f005f498adffa078410bc1e492c6ce80c"
     else
       url "https://github.com/code-yeongyu/go-claude-code-comment-checker/releases/download/v0.4.4/comment-checker_v0.4.4_darwin_amd64.tar.gz"
-      sha256 "526bea65dd2154562bb789e1158a0e5cb0bbb783a027446c7923b78923dc3536"
+      sha256 "b1cadc4a70d10d1be7f901e305c2d08d0c911f06f589ea282e365c187a0c9f41"
     end
   end
 
