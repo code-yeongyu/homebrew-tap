@@ -1,16 +1,16 @@
 class CommentChecker < Formula
   desc "Multi-language comment detection hook for Claude Code. 100% vibe coded."
   homepage "https://github.com/code-yeongyu/go-claude-code-comment-checker"
-  version "0.4.2"
+  version "0.4.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/code-yeongyu/go-claude-code-comment-checker/releases/download/v0.4.2/comment-checker_v0.4.2_darwin_arm64.tar.gz"
-      sha256 "53de4534f0857760378b480c08ab138bae82b5b0e016bc5a6005020d7ccc8d32"
+      url "https://github.com/code-yeongyu/go-claude-code-comment-checker/releases/download/v0.4.3/comment-checker_v0.4.3_darwin_arm64.tar.gz"
+      sha256 "a021594e95bd8573e7885b07cfb9a8665af66e31fa19028c73d0db49a1d55724"
     else
-      url "https://github.com/code-yeongyu/go-claude-code-comment-checker/releases/download/v0.4.2/comment-checker_v0.4.2_darwin_amd64.tar.gz"
-      sha256 "ddf1561963eff8cbfd72a641b06616b126f8ae9701a9d2e571f0c6a0ebab3e82"
+      url "https://github.com/code-yeongyu/go-claude-code-comment-checker/releases/download/v0.4.3/comment-checker_v0.4.3_darwin_amd64.tar.gz"
+      sha256 "9b571c3fa421dedc7b4c9e7982a10e1cc5f906a08958fb9a891b0e0e8f1d2466"
     end
   end
 
