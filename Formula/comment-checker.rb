@@ -14,6 +14,16 @@ class CommentChecker < Formula
     end
   end
 
+  on_linux do
+    if Hardware::CPU.arm?
+      url "https://github.com/code-yeongyu/go-claude-code-comment-checker/releases/download/v0.7.0/comment-checker_v0.7.0_linux_arm64.tar.gz"
+      sha256 "477317e4beadfe9965091115adde78a8114c644b2269099e1bfd0456ee95c231"
+    else
+      url "https://github.com/code-yeongyu/go-claude-code-comment-checker/releases/download/v0.7.0/comment-checker_v0.7.0_linux_amd64.tar.gz"
+      sha256 "60b98741cd1b06acb247d2d746dda4ff15992e91e39dad2dc0db016ebd655646"
+    end
+  end
+
   def install
     bin.install "comment-checker"
   end
